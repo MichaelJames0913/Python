@@ -1,1 +1,1 @@
-![](images/SimpleSort.jpeg)
+![](images/master/SimpleSort.jpeg)
