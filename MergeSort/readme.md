@@ -13,6 +13,7 @@ Best-case  O(n Logn )
    
 Average-case O(nlogn)                                         
 ![](https://raw.githubusercontent.com/MichaelJames0913/images/master/mergesort_VS_InsertionSort2.jpg)
-
+  
+Insertion sort was much faster in the case where the algorithm was already sorting a sorted array. The algorithm is running at O(n) becouse it only goes thought the array only once looking at n number of elements.  
   
 
