@@ -1,4 +1,4 @@
-iMerge sort program
+Merge sort program  
 ![](https://raw.githubusercontent.com/MichaelJames0913/images/master/mergesort_VS_InsertionSort1.jpg)
 
 Insertion sort was much slower compared to merge sort. Merge short is a much more Advance-sorting algorithm and uses divide and conquer principle. 
@@ -11,7 +11,8 @@ Worst-case O(n Logn )
    
 Best-case  O(n Logn )                                    
    
-Average-case O(nlogn)                                       
-![](https://raw.githubrusercontent.com/MichaelJames0913/images/master/mergesort_VS_InsertionSort2.jpg)
+Average-case O(nlogn)                                         
+![](https://raw.githubusercontent.com/MichaelJames0913/images/master/mergesort_VS_InsertionSort2.jpg)
+
   
 
