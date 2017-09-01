@@ -5,11 +5,13 @@ Insertion sort was much slower compared to merge sort. Merge short is a much mor
     
 First divide the list into the smallest unit (1 element), then compare each element with the adjacent list to sort and merge the two adjacent lists. Finally all the elements are sorted and merged.
   
-Merge Sort    				
+Merge Sort
+      				
 Worst-case O(n Logn )   		                          
    
 Best-case  O(n Logn )                                    
    
 Average-case O(nlogn)                                       
-![](https://raw.githubrusercontent.com/MichaelJames0913/images/master/mergesort_VS_InsertionSort2.jpg  
+![](https://raw.githubrusercontent.com/MichaelJames0913/images/master/mergesort_VS_InsertionSort2.jpg)
+  
 
