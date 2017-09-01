@@ -16,7 +16,23 @@ def insertionsort(a):
                 a[inner] = a[inner-1]   #shift item to right
                 inner -= 1              #go left one index
                 a[inner] = temp         #insert marked item
-   #return a
+   return a
+
+def insertionsort2(a, half):
+   if (len(a) == 1) or (len(a)== 0):
+       return a
+
+   for i in range(1,len(a),1): # i is the dividing line
+
+     while i < half:
+
+        temp = a[i]               # remove marked item
+        inner = i                 # starts shifts at i
+        while inner>0 and a[inner-1] >= temp: # loop untill one is smaller
+                    a[inner] = a[inner-1]   #shift item to right
+                    inner -= 1              #go left one index
+                    a[inner] = temp         #insert marked item
+     return a
 
 #//////////////////////////////////////////////////////////////////////////////
 #MergeSort
@@ -78,7 +94,15 @@ for i in range(n):
 
     A_ran = np.arange(inputSize[i])
     random.shuffle(A_ran)  # randomize the array
+
     A_ran2 = np.arange(inputSize[i])
+    random.shuffle(A_ran2)  # randomize the array
+    sortHalf = (A_ran.size/2)
+
+    A_ran3 = insertionsort2(A_ran2, sortHalf)
+
+    print(A_ran3)
+
 
     # A_ran1 = np.copy(A_ran)
     #random.shuffle(A_ran)  # randomize the array
