@@ -1,0 +1,26 @@
+.well {
+    text-align: center;
+}
+.btn {
+    background: #cc5e00;
+    color: #ffffff;
+}
+.glyphicon {
+    font-size: 40px;
+}
+
+.details {
+  width: 100%;
+  min-height: 400px;
+}
+.desc {
+    text-align: left;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}

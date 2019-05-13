@@ -1,0 +1,20 @@
+{{extend 'layout.html'}}
+<html>
+   <head>
+      <style>
+         .btn {
+         background: #cc5e00;
+         color: #ffffff;
+         }
+      </style>
+      <meta charset="UTF-8">
+      <title>Title</title>
+   </head>
+   <body class='wb-body' style="background-image:url('{{=URL('static', 'images/shark_bg.jpg')}}')">
+      <div class="well">
+         <h3>Create comment:</h3>
+         {{=form}}
+         <div><a class="btn" href="{{=URL('showIdea', args=request.args(0))}}">Back to Idea</a></div>
+      </div>
+   </body>
+</html>
