@@ -1,5 +1,5 @@
 
-![](https://raw.githubusercontent.com/MichaelJames0913/images/master/mergesort_VS_InsertionSort1.jpg)
+![](https://raw.githubusercontent.com/MichaelJames0913/images/master/Sharktank.png)
 
 SharkTank is a project collaboration website originally developed by a small team to be a project management office tool that allowed users to post ideas for troubleshooting. The code was updated by me to have a more frendly interface and theme.
 
