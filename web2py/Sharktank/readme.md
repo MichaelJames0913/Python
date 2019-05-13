@@ -3,6 +3,10 @@
 
 SharkTank is a project collaboration website originally developed by a small team to be a project management office tool that allowed users to post ideas for troubleshooting. The code was updated by me to have a more frendly interface and theme.
 
+Main repository
+
+- https://github.com/michaelschmidt0913/Python/tree/master/web2py/sharktank
+
 controllers/default.py 
 
 The default file is the main python controller file that hold all the main funcations that gives
